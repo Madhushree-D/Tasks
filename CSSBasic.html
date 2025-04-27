@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>example1</title>
+    <style>
+       /* h1{
+            color:red;
+        }
+
+        #i1{
+            color:blue;
+        }
+        .p1{
+            color:aqua;
+        }
+        italic,big,small{
+            color:blueviolet;
+        }
+    *{
+        color:yellow;
+    }*/
+    #i2{
+        text-transform:uppercase;
+        text-align:center;
+        text-decoration-line:underline;
+        text-decoration-style: wavy;
+        text-decoration-color: orange;
+        text-decoration-thickness: 10px;
+        text-shadow:5px 5px 0px violet;
+        font-family:'Times New Roman';
+        font-size:larger;
+    }
+    #i3{
+        text-indent: 20%;
+        letter-spacing:20px;
+        word-spacing:30px;
+        line-height:50px;
+        font-weight:bolder;
+        font-style:italic;
+    }
+.c1{
+    background-color: pink;
+    border: 10px solid brown;
+    padding-left :10px;
+    padding-right:20px;
+    padding-top:40px;
+    padding-bottom:30px;
+    margin:50px ;
+
+}
+    .block{
+        height: 100px;
+        width:100px;
+        position:sticky;
+    }
+    .block1{
+        background-color: tomato;
+    }
+    .block2{
+        background-color: blanchedalmond;
+
+    }
+    body{
+        background-image:none;
+        background-position:center center;
+        background-attachment:fixed;
+        background-repeat:no repeat;
+    }
+    </style>
+</head>
+<body>
+    <div class = "block block1">Hi</div>
+    <div class = "block block2">hi</div>
+    </div>
+    <h1 id="i2">This is CSS</h1>
+    <h2 id="i3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non exercitationem quasi, aliquam harum id hic, dolorem eos consequatur ad quisquam sunt, quos repudiandae assumenda nisi. Adipisci deserunt ex placeat qui.</h2>
+    <p  class=c1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, quis, veritatis hic fugiat vero sapiente ipsam quo, distinctio veniam assumenda alias voluptates odit blanditiis. Doloremque officiis vitae nemo temporibus dicta.</p>
+    <h2>Physical Tags</h2>
+    <p><b>Bold text example.</b></p>
+    <p><i>Italic text example.</i></p>
+    <p><u>Underlined text example.</u></p>
+    <p><s>Strikethrough text example.</s></p>
+    <p><big>Big text example</big></p>
+    <p><small>Small text example</small></p>
+  
+    <!-- Logical Tags -->
+    <h2>Logical Tags</h2>
+    <p><abbr title="World Health Organization">WHO</abbr> is a global health organization.</p>
+    <p><cite>Harry Potter</cite> is a novel by J.K. Rowling.</p>
+    <p><code>System.out.println("Hello World");</code> is a Java print statement.</p>
+    <p><samp>Hello User</samp> is sample output.</p>
+    <p><var>x</var> is a variable.</p>
+  
+    <!-- Void Tags -->
+    <h2>Void Tags</h2>
+    <p>Sample Image</p>
+    <img src="data:image/webp;base64,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" alt="Sample Image">
+    <br>
+    <input type="text" placeholder="Type here">
+  
+    <!-- Table Example -->
+    <h2>Table Example</h2>
+    <table border="1">
+      <caption>Student Info</caption>
+      <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Grade</th>
+      </tr>
+      <tr>
+        <td>Ramesh</td>
+        <td>20</td>
+        <td>A</td>
+      </tr>
+      <tr>
+        <td>Suresh</td>
+        <td>22</td>
+        <td>B</td>
+      </tr>
+    </table>
+    
+    <!-- List Examples -->
+    <h2>List Examples</h2>
+    <h3>Ordered List</h3>
+    <ol>
+      <li>Apple</li>
+      <li>Banana</li>
+      <li>Cherry</li>
+    </ol>
+  
+    <h3>Unordered List</h3>
+    <ul>
+      <li>Red</li>
+      <li>Green</li>
+      <li>Blue</li>
+    </ul>
+  
+    <h3>Definition List</h3>
+    <dl>
+      <dt>HTML</dt>
+      <dd>HyperText Markup Language</dd>
+      <dt>CSS</dt>
+      <dd>Cascading Style Sheets</dd>
+    </dl>
+  
+    <!-- Links -->
+    <h2>Links</h2>
+    <p><a href="https://www.google.com" target="_blank">Visit Google</a></p>
+    <p><a href="mailto:someone@example.com">Send Email</a></p>
+    <p><a href="#"><img src="https://via.placeholder.com/100x50" alt="Logo"></a></p>
+  
+    <!-- Form Example -->
+    <h2>Form Example</h2>
+    <form>
+      <label>Name:</label><br>
+      <input type="text" name="name"><br><br>
+      <label>Email:</label><br>
+      <input type="email" name="email"><br><br>
+      <label>Message:</label><br>
+      <textarea name="message"></textarea><br><br>
+      <input type="submit" value="Submit">
+    </form>
+  
+    <!-- Non-Semantic Tags -->
+    <h2>Non-Semantic Tags</h2>
+    <div>This is a div tag used for grouping content.</div>
+    <span>This is a span tag used for inline grouping.</span>
+  
+    <!-- Semantic Tags -->
+    <h2>Semantic Tags</h2>
+    <header>
+      <h3>Website Header</h3>
+      <nav>Home | About | Contact</nav>
+    </header>
+  
+    <article>
+      <h4>Article Title</h4>
+      <p>This is the content of the article.</p>
+    </article>
+  
+    <section>
+      <h4>Section Title</h4>
+      <p>This is a section of the main content.</p>
+    </section>
+  
+    <aside>
+      <p>This is some additional info or a sidebar.</p>
+    </aside>
+  
+    <footer>
+      <p>© 2025 All Rights Reserved.</p>
+    </footer>
+  
+  </body>
+  </html>
+  
